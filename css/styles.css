@@ -1,0 +1,95 @@
+.icon {
+  display: block;
+  margin: auto;
+  height: 80px;
+  width: 110px;
+}
+
+.container {
+  max-width: 1000px;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 33px;
+  margin: auto;
+  height: 65vh;
+  overflow-y: auto;
+  margin-bottom: 23px;
+  background-color: aliceblue;
+}
+
+.header{
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+  display: flex;
+  padding: 10px 30px;;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+li{
+  float: left;
+}
+
+.message {
+  background-color: rgba(253, 229, 229, 0.726);
+  width: 24%;
+  padding: 10px;
+  margin: 17px 10px;
+  border: solid black 2px;
+  border-radius: 14px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+
+#send-form{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    width: 9%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover{
+  background-color:black;
+  color:white;
+}
+
+#textMessage{
+    width: 88%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 15px;
+}
+
+body{
+    height: 120vh;
+    background-image: linear-gradient(rgb(233, 231, 144),rgb(178, 243, 232));
+}
